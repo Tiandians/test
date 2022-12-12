@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "生成 C/C++ 程序",
+            "label": "build",
             "command": "gcc", // 需要更改为 g++
             "args": [
                 "-fdiagnostics-color=always",

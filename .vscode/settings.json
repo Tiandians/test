@@ -11,4 +11,10 @@
     "code-runner.ignoreSelection": true, // 默认为false，效果是鼠标选中一块代码后可以单独执行，但C是编译型语言，不适合这样用
 
     "C_Cpp.intelliSenseEngine": "default", // 可以为Default或Tag Parser，后者较老，功能较简单。具体差别参考cpptools扩展文档
+    "markdown.extension.list.indentationSize": "inherit",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-k>": false
+    }
 }
